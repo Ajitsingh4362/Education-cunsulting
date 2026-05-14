@@ -1,5 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import logoImg from '../assets/logo.png';
 import {
   GraduationCap,
   Phone,
@@ -23,7 +24,7 @@ import {
   Clock3
 } from 'lucide-react';
 import './styles.css';
-
+import directorImg from '../assets/director.png';
 const phone = '918789558223';
 const displayPhone = '+91 878 955 8223';
 const whatsappText = encodeURIComponent('Hello Samarpan Swarrnim Foundation, I want information about admission guidance and the Bihar Student Credit Card Scheme.');
@@ -123,7 +124,7 @@ function Hero() {
         </div>
         <div className="hero-card-wrap">
           <div className="director-card premium-card">
-            <img src="/assets/director.png" alt="Director R Pramodh Kushwaha" />
+            <img src={directorImg} alt="Director R Pramodh Kushwaha" />
             <div className="director-info">
               <span>Director</span>
               <h3>R Pramodh Kushwaha</h3>
@@ -249,7 +250,7 @@ function Director() {
     <section id="director" className="director-section section-pad">
       <div className="container director-grid">
         <div className="director-photo premium-card">
-          <img src="/assets/director.png" alt="R Pramodh Kushwaha" />
+          <img src={directorImg} alt="R Pramodh Kushwaha" />
         </div>
         <div className="director-text">
           <span className="small-label">Leadership</span>
@@ -290,7 +291,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <img src="/assets/logo.png" alt="Samarpan logo" />
+          <img src={logoImg} alt="Samarpan logo" />
           <div>
             <h3>SAMARPAN SWARRNIM FOUNDATION</h3>
             <p>A Complete Information & Career Guidance Organization</p>

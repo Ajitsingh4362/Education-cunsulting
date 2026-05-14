@@ -84,7 +84,7 @@ function Header() {
     <header className="header">
       <div className="container nav">
         <a href="#home" className="brand">
-          <img src="/assets/logo.png" alt="Samarpan Swarrnim Foundation logo" />
+          <img src={logoImg} alt="Samarpan Swarrnim Foundation logo" />
           <div>
             <b>SAMARPAN</b>
             <span>Swarrnim Foundation</span>
